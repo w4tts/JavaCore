@@ -19,7 +19,7 @@ public class lesson2 {
     }
 }
 
-
+//Реализация enum
 enum Artist{
     Oasis("Britpop"),
     TheBeatles("Rock"),
@@ -43,7 +43,8 @@ class lesson2_enum{
     }
 }
 
-class SwichTest{
+//Реализация switch
+class SwitchTest{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter artist name: ");
