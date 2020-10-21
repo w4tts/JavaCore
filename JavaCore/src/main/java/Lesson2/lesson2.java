@@ -2,7 +2,7 @@ package Lesson2;
 
 import java.util.Scanner;
 
-public class lesson2 {
+class LessonTwo {
     // Реализация треугольника Флойда
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -37,7 +37,7 @@ enum Artist{
     }
 }
 
-class lesson2_enum{
+class Lesson2Enum{
     public static void main(String[] args) {
         System.out.println(Artist.Oasis.getGenre());
     }
